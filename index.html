@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Letter Position From a Array</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>TO-DO-APP</title>
 </head>
 <body>
-    <h1>Letter Position From a Array</h1>
+    <div class="container">
+        <div class="sub_container header">
+            <h1 >Saimon Pranta</h1>
+            <h2 class="toDo">TO-DO-APP</h2>
+        </div>
+
+        <div class="sub_container input_section">
+            <form>
+                <label>Add New Task</label>
+                <input type="text" placeholder="  type here..." class="inputBox">
+                <input type="submit" value="Add Task">
+            </form>
+        </div>
+
+        <div class="sub_container main_task">
+            <div class="incomplite_task">
+                <h6>INCOMPLITE TESK</h6>
+                <ul class="incomUl">
+                    <li>
+                        <input type="checkbox">
+                        <label>Task Name</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label>Task Name</label>
+                        
+                    </li>
+                    <li>
+                        <input type="checkbox"> 
+                        <label>Task Name</label>
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="complite_task">
+                <h6>COMPLITE TESK</h6>
+                <ul>
+                    <li>
+                        <label>Task Name</label>
+                        <input type="submit" value="Delete" >
+                    </li>
+                </ul>
+            </div>
+        </div>
     
-
-
 
     <script src="main.js"></script>
 </body>

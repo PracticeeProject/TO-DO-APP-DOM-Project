@@ -1,0 +1,237 @@
+
+@media only screen and (min-width:690px) and (max-width:750px){
+    .header h1::after{
+        left: 31%;
+        right: 249px;
+        height:98%;
+        width:40%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -175px;
+        }
+    }
+    .incomplite_task h6::after {
+        bottom: -6px;
+        right: 15%;
+        width: 180px;
+      }
+      .complite_task h6::after {
+        bottom: -6px;
+        right: 16%;
+        width: 170px;
+      }
+
+}
+/* ======================================
+       Large Device CSS
+====================================== */
+
+@media only screen and (min-width:200px) and (max-width:690px){
+    /* ======================================
+            Sumit Section CSS
+    ====================================== */
+    form{
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .input_section {
+        font-size: 13px;
+      }
+    
+    form label{
+       
+    }
+    form input[type="text"]{
+        width: 129px;
+        height: 15px;
+        margin:0;
+        padding:0;
+    }
+    form input[type="submit"]{
+        width: 57px;
+        height: 19px;
+        margin:0;
+        padding:0;
+        font-size: 10px;
+    }
+
+    /* ========================================
+        Incomplite Task Section CSS
+    ======================================== */
+
+    .incomplite_task h6{
+        font-size: 15px;
+    }
+    .incomplite_task h6::after {
+        bottom: -6px;
+        right: 5px;
+        height: 2px;
+        width: 130px;
+        background: #999999;
+      }
+    .incomplite_task ul li{
+        font-size: 12px;
+    }
+    /* ========================================
+            Complite Task Section CSS
+    ======================================== */
+
+    .complite_task h6{
+        font-size: 15px;
+    }
+    .complite_task h6::after {
+        bottom: -6px;
+        right: 5px;
+        height: 2px;
+        width: 130px;
+        background: #999999;
+      }
+      .complite_task ul li label,.complite_task ul li input[type="submit"]{
+          display: block;
+          font-size:12px ;
+          margin: auto auto;
+
+      }
+      .complite_task ul li input[type="submit"]{
+          font-size: 11px;
+          right: 50%;
+          transform: translate(50%);
+      }
+      .complite_task ul li{
+        font-size:14px ;
+        display: block;
+        text-align: center;
+        height: 60px;
+        box-sizing: content-box;
+    }
+
+}
+@media only screen and (min-width:801px) and (max-width:840px){
+    .header h1::after{
+        left: 32.5%;
+        right: 250px;
+        height:98%;
+        width:40%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -198px;
+        }
+    }
+}
+@media only screen and (min-width:751px) and (max-width:800px){
+    .header h1::after{
+        left: 32.5%;
+        right: 250px;
+        height:98%;
+        width:40%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -188px;
+        }
+    }
+}
+@media only screen and (min-width:640px) and (max-width:710px){
+    .header h1::after{
+        left: 29%;
+        right: 250px;
+        height:98%;
+        width:100%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -148px;
+        }
+    }
+}
+@media only screen and (min-width:600px) and (max-width:641px){
+    .header h1::after{
+        left: 28.5%;
+        right: 160px;
+        height:98%;
+        width:45%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -130px;
+        }
+    }
+}
+@media only screen and (min-width:560px) and (max-width:599px){
+    .header h1::after{
+        left: 26%;
+        right: 160px;
+        height:98%;
+        width:50%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -105px;
+        }
+    }
+}
+@media only screen and (min-width:500px) and (max-width:590px){
+    .header h1::after{
+        left: 23%;
+        right: 160px;
+        height:98%;
+        width:80%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -85px;
+        }
+    }
+}
+@media only screen and (min-width:440px) and (max-width:499px){
+    .header h1::after{
+        left: 20%;
+        right: 160px;
+        height:98%;
+        width:100%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -60px;
+        }
+    }
+}
+@media only screen and (min-width:380px) and (max-width:439px){
+    .header h1::after{
+        left: 13%;
+        right: 160px;
+        height:98%;
+        width:100%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -12px;
+        }
+    }
+}
+@media only screen and (min-width:200px) and (max-width:379px){
+    .header h1::after{
+        left: 2%;
+        right: 160px;
+        height:98%;
+        width:100%;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin:0 -3px;
+        }
+    }
+}

@@ -1,0 +1,213 @@
+/* =================================
+            Common CSS
+================================= */
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background:#ffff;
+}
+.container{
+    height:auto;
+    overflow: hidden;
+    min-height: 550px;
+    max-width: 800px;
+    width:95%;
+    background:#CEEADC;
+    margin:auto auto;
+    border:3px solid #ACC3B6;
+    border-radius:7px;
+    margin-top:2%;
+}
+.sub_container{
+    height:auto;
+    width:90%;
+    margin:auto auto;
+    padding:0;
+}
+/* =================================
+        Header Section CSS
+================================= */
+.header h1{
+    color:#CD942C;
+    text-align:center;
+    margin:40px 0 5px 0;
+    padding:0;  
+    font-size: 35px;
+    position:relative;
+}
+.header h2{
+    color:#F4B703;
+    text-align:center;
+    margin:0;
+    padding:0;
+    
+}
+.input_section{
+    text-align: center;
+    background:white;
+    padding:8px 0;
+    margin-top:15px;
+    border-radius: 4px;
+    border:1px solid #ACC3B6;
+}
+.header h1::after{
+    position:absolute;
+    content:"";
+    left: 34.5%;
+    right: 249px;
+    bottom:0px;
+    background:#CEEADC;
+    height:98%;
+    width:35%;
+    border-left: 2px solid yellow;
+    animation:typing 4s steps(19) infinite;
+}
+@keyframes typing {
+    100%{
+        left:100%;
+        margin:0 -230px;
+    }
+}
+/* =================================
+        Input Section CSS
+================================= */
+.input_section input{
+    margin:0 2px;
+}
+.input_section input[type="submit"]{
+    margin: 0 4px;
+}
+
+/* =================================
+    Task Output Section CSS
+================================= */
+.main_task{
+    display:flex;
+    margin-top:25px;
+    justify-content:space-between;
+}
+
+/* =================================
+    IncompliteTask Section CSS
+================================= */
+.incomplite_task{
+    background: #ffff;
+    border-radius: 4px;
+    border:1px solid #ACC3B6;
+    width: 45%;
+    height: 100%;
+    margin-bottom:30px;
+
+}
+.incomplite_task h6{
+    font-size:20px;
+    font-weight:500;
+    text-align: center;
+    color:#999999;
+    margin:10px 0 0 0;
+    position:relative;
+}
+.incomplite_task h6::after{
+    position:absolute;
+    content:"";
+    bottom:-6px;
+    right:18%;
+    height:2px;
+    width:205px;
+    background:#999999;
+}
+.incomplite_task ul{
+    list-style: none;
+    padding:0;
+    margin:19px 20%;
+}
+.incomplite_task ul li{
+    text-align: left;
+    margin:0;
+    padding:5px;
+    border-bottom:1px dotted #828282;
+}
+.incomplite_task ul li:last-child{
+    border:none;
+}
+.incomplite_task ul li input[type="submit"]{
+    margin-left:7px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:2px 3px;
+    font-weight: 600;
+}
+.incomplite_task ul li input[type="submit"]:hover{
+    background:#85C9E8;
+    color:#414141;
+}
+
+/* =================================
+    CompliteTask Section CSS
+================================= */
+.complite_task{
+    background: #ffff;
+    border-radius: 4px;
+    border:1px solid #ACC3B6;
+    width: 45%;
+    height:100%;
+    margin-bottom:30px;
+}
+.complite_task h6{
+    font-size:20px;
+    font-weight:500;
+    text-align: center;
+    color:#999999;
+    margin:10px 0 0 0;
+    position:relative;
+}
+.complite_task h6::after{
+    position:absolute;
+    content:"";
+    bottom:-6px;
+    right:22%;
+    height:2px;
+    width:180px;
+    background:#999999;
+}
+.complite_task ul{
+    list-style: none;
+    margin:19px 25%;
+    padding:0;
+}
+.complite_task ul li{
+    margin:0;
+    padding:5px;
+    border-bottom:1px dotted #828282;
+    position: relative;
+    height: 22px;
+    
+    
+}
+.complite_task ul li:last-child{
+    border:none;
+}
+.complite_task ul li input[type="submit"]{
+    margin-left:7px;
+    background:green;
+    font-weight: 600;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:2px 3px;
+    position:absolute;
+    right: 0px;
+}
+.complite_task ul li input[type="submit"]:hover{
+    background:#8BE78B;
+    color:#414141;
+}
+.complite_task ul li input[type="submit"]{
+    position: right;
+}
+
+
